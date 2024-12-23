@@ -13,6 +13,16 @@ public class Acitivdad_GIT_2 {
 		int[][] matriz = new int[5][5];
 	    Random random = new Random();
 	    
+	    for (int i = 0; i < 5; i++) {
+	    	
+            for (int j = 0; j < 5; j++) {
+            	
+            matriz[i][j] = random.nextInt(100) + 1;
+        }
+        }
+	    
+	    
+	    
 	    
 	    
 	}
