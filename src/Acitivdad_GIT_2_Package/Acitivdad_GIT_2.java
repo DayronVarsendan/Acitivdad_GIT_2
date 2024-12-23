@@ -24,7 +24,9 @@ public class Acitivdad_GIT_2 {
             }
         }
         
-        
+        if (!encontrado) {
+            System.out.println("El número " + numeroBuscado + " no se encuentra en la matriz.");
+        }
         
 	}
 
